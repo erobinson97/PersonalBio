@@ -1,0 +1,27 @@
+﻿body
+{
+    background-color: deepskyblue;
+}
+
+.button{
+    background-color: aqua;
+    width: 7%;
+    font-size: 200%;
+}
+
+.title{
+    background-color:aquamarine;
+    font-size: 250%;
+}
+.heading{
+    background-color:azure;
+    font-size: 600%;
+}
+.outterbox{
+    background-color:ghostwhite;
+    float:right;
+}
+.innerbox{
+    background-color: darkblue;
+    float:inherit;
+}
