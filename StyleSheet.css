@@ -5,7 +5,7 @@
 
 div.button{
     background-color: aqua;
-    width: 7%;
+    width: 8%;
     font-size: 200%;
     margin-top: 5px;
     text-shadow: 0px -2px 1px #f05afb;
@@ -33,9 +33,24 @@ a.button{
 }
 .outterbox{
     background-color:ghostwhite;
-    float:right;
+  
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    top: 200px;
+    right: 20px;
 }
 .innerbox{
     background-color: darkblue;
-    float:inherit;
+    margin: 5px;
+    width: 99.3%;
+    height: 98.5%;
+    color: white;
+}
+p.innerbox{
+    margin-left: 10px;
+    font-size: 120%;
+}
+h3.innerbox{
+    margin-left: 10px;
 }
