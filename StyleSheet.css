@@ -1,49 +1,74 @@
-﻿body
+﻿@font-face{
+    font-family: Alien Encounters;
+    src: url('Alien-Encounters-Regular.ttf');
+}
+@font-face{
+    font-family: Streamster;
+    src: url('Streamster.ttf')
+}
+body
 {
     background-image: url(http://www.imgbase.info/images/safe-wallpapers/digital_art/1_miscellaneous_digital_art/55904_1_miscellaneous_digital_art_vaporwave.jpg);
+}
+.suun{
+    width: 6%;
+    height: 6%;
+    left: 1050px;
+    top: 3px;
+    position: relative;
+   
 }
 
 div.button{
     background-color: aqua;
-    width: 8%;
+    width: 9.9%;
     font-size: 200%;
     margin-top: 5px;
     text-shadow: 0px -2px 1px #f05afb;
+    opacity: .75;
 }
 a.button{
     text-decoration: none;
     color: black;
     text-shadow: 0px -2px 1px #f05afb;
 }
-.button:hover{
+div.button:hover{
     background-color: darkblue;
+    
+}
+div.button:hover a{
     color: yellow;
 }
 .title{
     background-color:aquamarine;
     font-size: 250%;
+    font-family: Streamster;
+    color: deeppink;
+    
 }
 .heading{
     background-image: url(http://i0.kym-cdn.com/photos/images/newsfeed/000/620/586/800.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     font-size: 600%;
-    color: white;
-    text-shadow: 4px 2px black;
+    color: #F660AB;
+    text-shadow: 4px 2px #5FF5AA;
+    font-family: 'Alien Encounters';
 }
 .outterbox{
     background-color:ghostwhite;
   
-    width: 90%;
-    height: 70%;
-    position: absolute;
+    width: 88%;
+    height: 80%;
+    position: fixed;
     top: 200px;
     right: 20px;
 }
 .innerbox{
+    position:fixed;
     background-color: darkblue;
     margin: 5px;
-    width: 99.3%;
+    width: 87.4%;
     height: 98.5%;
     color: white;
 }
