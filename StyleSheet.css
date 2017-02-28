@@ -8,7 +8,8 @@
 }
 body
 {
-    background-image: url(http://www.imgbase.info/images/safe-wallpapers/digital_art/1_miscellaneous_digital_art/55904_1_miscellaneous_digital_art_vaporwave.jpg);
+    background-image: url(background.jpg);
+    background-size: 100%;
 }
 #suun{
     float: left;
